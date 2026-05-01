@@ -1,9 +1,23 @@
 .DS_Store
+.venv/*
+.venv/
 
-# Main Data Directory (Downloaded from: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
-data/*
-data/
+# Large raw/processed datasets
+data/processed/*
+data/processed/
+data/category_tree.csv
+data/events.csv
+data/item_properties_*.csv
 
-# Documentation Directory for Planning and Reference
+
+# Documentation files and plans for future work
 documentation/*
 documentation/
+
+# Generated experiment artifacts
+outputs/*
+outputs/
+
+# Python cache artifacts
+__pycache__/
+*.pyc
