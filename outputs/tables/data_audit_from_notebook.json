@@ -1,0 +1,50 @@
+{
+  "processed_summary": {
+    "processed_avg_session_length": 3.6505221206721465,
+    "processed_median_session_length": 2.0,
+    "processed_p95_session_length": 9.0,
+    "processed_rows": 952622,
+    "processed_sessions": 260955,
+    "processed_unique_items": 121344
+  },
+  "raw_summary": {
+    "raw_event_counts": {
+      "addtocart": 69332,
+      "transaction": 22457,
+      "view": 2664312
+    },
+    "raw_null_counts": {
+      "event": 0,
+      "itemid": 0,
+      "timestamp": 0,
+      "transactionid": 2733644,
+      "visitorid": 0
+    },
+    "raw_rows": 2756101,
+    "raw_unique_items": 235061,
+    "raw_unique_visitors": 1407580
+  },
+  "split_summary": {
+    "test": {
+      "rows": 181392,
+      "sessions": 52192,
+      "time_max": "2015-09-18 02:54:05.961000+00:00",
+      "time_min": "2015-08-17 17:40:09.570000+00:00",
+      "unique_items": 50188
+    },
+    "train": {
+      "rows": 679881,
+      "sessions": 182668,
+      "time_max": "2015-07-31 21:58:45.530000+00:00",
+      "time_min": "2015-05-03 03:00:40.988000+00:00",
+      "unique_items": 100472
+    },
+    "validation": {
+      "rows": 91349,
+      "sessions": 26095,
+      "time_max": "2015-08-17 17:39:54.685000+00:00",
+      "time_min": "2015-07-31 21:59:15.914000+00:00",
+      "unique_items": 33073
+    }
+  }
+}
